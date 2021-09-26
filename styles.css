@@ -3,8 +3,33 @@ body {
   padding: 1rem;
   box-sizing: border-box;
   height: 100vh;
-  background-color: rgb(29, 35, 51);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(91, 111, 170);
   color: white;
+}
+
+h3, h4 {
+  font-size: 1.5rem;
+}
+
+#bday-input {
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 15rem;
+  display: block;
+}
+
+#show-btn {
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 10rem;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 1.5rem;
 }
 
 main {
